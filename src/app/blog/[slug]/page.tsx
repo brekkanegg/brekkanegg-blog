@@ -23,7 +23,7 @@ export async function generateMetadata({
   const { title, description, image } = result.post;
   const generatedOgImage = signOgImageUrl({ title, brand: config.blog.name });
 
-  return {
+return {
     title,
     description,
     openGraph: {
